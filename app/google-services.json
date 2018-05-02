@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "101802114295",
+    "firebase_url": "https://tiendaelec-3e964.firebaseio.com",
+    "project_id": "tiendaelec-3e964",
+    "storage_bucket": "tiendaelec-3e964.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101802114295:android:a0fa3ebe82744a78",
+        "android_client_info": {
+          "package_name": "com.example.hola.tiendac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101802114295-12rd90ojs0q38bc2vue91o3f4a8dqnfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hola.tiendac",
+            "certificate_hash": "021632E1CA23217C6D5D2D5FB9F80155C0F2681A"
+          }
+        },
+        {
+          "client_id": "101802114295-hmuc71fg65l4dch3v5gb1t39insnvjvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGERDFJFTguekXked-nW0VHRaXVNmo_04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101802114295-hmuc71fg65l4dch3v5gb1t39insnvjvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101802114295:android:f077dd11cb978acf",
+        "android_client_info": {
+          "package_name": "com.example.camk1.app_tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101802114295-qghft2amf8tru0sup1v1e0a3fssap3qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.camk1.app_tienda",
+            "certificate_hash": "021632E1CA23217C6D5D2D5FB9F80155C0F2681A"
+          }
+        },
+        {
+          "client_id": "101802114295-uok867ln278236kt2uneg7n8i2le97sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.camk1.app_tienda",
+            "certificate_hash": "DF90F6C265458B2950B2D82773AB237DB6635A3A"
+          }
+        },
+        {
+          "client_id": "101802114295-hmuc71fg65l4dch3v5gb1t39insnvjvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGERDFJFTguekXked-nW0VHRaXVNmo_04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101802114295-hmuc71fg65l4dch3v5gb1t39insnvjvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
