@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/humanizing_technology"
-    android:gravity="center"
-    tools:context="com.example.camk1.app_tienda.MainActivity">
+    android:padding="16dp"
+    tools:context="com.livin.android.bookstore.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="35dp"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="normal|bold"
-        android:text="BIENVENIDO" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="35dp"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="normal|bold"
-        android:text="A LA TIENDA" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="35dp"
-        android:textColor="@android:color/background_dark"
-        android:textStyle="normal|bold"
-        android:text="CORTOCIRCUITO" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/search"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_width="match_parent"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/booksRecyclerView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark">
-        <Button
-            android:id="@+id/producto"
-            android:layout_width="0dp"
-            android:background="@color/colorPrimaryDark"
-            android:layout_weight="0.5"
-            android:textColor="@color/texto"
-            android:layout_height="wrap_content"
-            android:text="PRODUCTOS"/>
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/background_light" />
-        <Button
-            android:id="@+id/contacto"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/texto"
-            android:layout_width="0dp"
-            android:layout_weight="0.5"
-            android:layout_height="wrap_content"
-            android:text="CONTACTANOS"/>
-    </LinearLayout>
-
-</LinearLayout>
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="30dp"/>
+</android.support.constraint.ConstraintLayout>

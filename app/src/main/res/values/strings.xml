@@ -1,25 +1,12 @@
 <resources>
-    <string name="app_name">app_tienda</string>
-    <!--    Dialogo -->
-    <string name="dialogoEstasSinConexion">Estas sin conexión</string>
-    <string name="dialogoTextoDialogo">Al parecer, no estás conectado. Presiona volver a cargar para conectar.</string>
-    <string name="dialogoVolverCargar">Volver a Cargar</string>
-    <string name="dialogoCancelar">Cancelar</string>
-    <!--datos factgura-->
-    <string name="nombre">CORTO CIRCUITO S.R.L.</string>
-    <string name="ciudad">LA PAZ-BOLIVIA</string>
-    <string name="factura">FACTURA</string>
-    <string name="nit">NIT: 23123124</string>
-    <string name="nrofactura">FACTURA No: 123124124</string>
-    <string name="autorizacion">AUTORIZACION No: 312415423535</string>
-    <string name="actividad">ACTIVIDAD ECONOMICA</string>
-    <string name="venta">VENTA DE COMPONENTES ELECTRONICO</string>
-    <string name="fecha">FECHA:</string>
-    <string name="nombreC">Nombre:</string>
-    <string name="nitC">NIT/CI:</string>
-    <string name="cantidad">CANT</string>
-    <string name="descripcion">DESCRIPCION</string>
-    <string name="unit">UNIT</string>
-    <string name="importe">IMPORTE</string>
-    <string name="total">TOTAL</string>
+    <string name="app_name">BookStore</string>
+    <string name="login">LogIn</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="search">Search by title, author or year</string>
+    <string name="book_cover">Book Cover</string>
+    <string name="title_place_holder">Title Here</string>
+    <string name="author_place_holder">Author Here</string>
+    <string name="year">Year</string>
+    <string name="logout">Logout</string>
 </resources>
